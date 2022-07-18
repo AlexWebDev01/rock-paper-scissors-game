@@ -50,6 +50,7 @@ function resetAll() {
   computerChoiceEl.textContent = '';
   resultText.textContent = '';
   resetSelected();
+  stopConfetti();
 }
 window.resetAll = resetAll;
 
